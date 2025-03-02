@@ -2,10 +2,6 @@
   {
     "test": ".*\\.js$",
     "jsc": {
-      "baseUrl":"./",
-      "paths": {
-         "@/*": ["src/*"]
-      },
       "parser": {
         "syntax": "ecmascript",
       }
@@ -14,10 +10,6 @@
   {
     "test": ".*\\.jsx$",
     "jsc": {
-      "baseUrl":"./",
-      "paths": {
-         "@/*": ["src/*"]
-      },
       "parser": {
         "syntax": "ecmascript",
         "jsx": true
